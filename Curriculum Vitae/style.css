@@ -1,0 +1,109 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    background-color: rgb(49, 49, 49);
+    color: bisque;
+}
+
+/* NOM /DATE DE NAISSANCE/ PAYS*/
+header{
+    text-align: center;
+    padding-bottom: 30px;
+}
+header h1{
+    border: 8px solid rgb(255, 238, 5) ;
+}
+header p{
+    font-size: 1.1em;
+}
+
+/*FORMATION ET CONTACT*/
+.wrapper-one{
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+.formation{
+    border: 1px solid rgb(255, 238, 5);
+}
+.contact{
+    border: 1px solid rgb(255, 238, 5);
+    
+}
+.wrapper-one h2{
+    color: rgb(255, 238, 5);
+}
+.wrapper-one li{
+    list-style: none;
+}
+#date{
+    color: black;
+    background-color: rgb(255, 238, 5) ;
+    border-right: 4px solid green;
+}
+.wrapper-one img{
+    width: 30px;
+    height: 30px;
+}
+.wrapper-one #icon{
+    font-size: 30px;
+}
+.wrapper-one a{
+    text-decoration: none;
+    color: bisque;;
+}
+
+/*PHOTO ET COMPETENCES*/
+.wrapper-two p{
+    color: rgb(255, 238, 5) ;
+    text-align: center;
+}
+.wrapper-two img{
+    width: 550px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 6px solid rgb(255, 238, 5) ;
+}
+
+/*LOISIRS / EXPERIENCES / COMPETENCES DE LOGICIELS*/
+.wrapper-three{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+
+}
+.wrapper-three h2{
+    color: rgb(255, 238, 5);
+}
+.wrapper-three li{
+    list-style: none;
+}
+
+.loisirs{
+    border:  1px solid rgb(255, 238, 5);
+}
+.loisirs #icon{
+    font-size: 30px;
+}
+
+
+.competence{
+    border: 1px solid rgb(255, 238, 5);
+}
+.competence img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.experiences{
+    border:  1px solid rgb(255, 238, 5);
+}
